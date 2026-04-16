@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.git/
+.venv/
+data/
+mlruns/
+mlartifacts/
+tests/
+*.ipynb
+*.pdf
+*.png

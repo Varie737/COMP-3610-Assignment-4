@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+data/
+mlruns/
+mlartifacts/
+models/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.db
