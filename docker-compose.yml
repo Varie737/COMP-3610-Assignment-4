@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: taxi-tip-api
+    environment:
+      MODEL_PATH: /app/models/taxi_tip_model.joblib
+      MODEL_INFO_PATH: /app/models/model_info.json
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
